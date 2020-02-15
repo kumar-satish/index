@@ -86,72 +86,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
    
   
-      
-<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
-
-
-
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-  
-
-
-<div class="w3-container w3-teal">
-
-<p align="center">© 2019 kumar-satish.github.io</p>
-
-</div>
-
-  
-
- 
-
 <!-- END MAIN -->
 </div>
 
-<script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
-
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
-
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
-}
-</script>
 
 
 
