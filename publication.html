@@ -7,10 +7,10 @@
 <link rel="stylesheet" href="./css/w3-theme-teal.css">
 <link rel="stylesheet" href="./css/css">
 <link rel="stylesheet" href="./css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+	
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-sidebar {
@@ -20,11 +20,26 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   bottom: 0;
   height: inherit;
 }
-
+	
 	p {
   font-size: 17px;
   color: gray;
    font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+	.label-success {
+    background-color: teal;
 }
 
 #myBtn {
@@ -57,18 +72,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   display: flex;	
 }
 
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: teal;
-   color: white;
-   text-align: center;
-}	
-	
-
-
 </style>
 </head><body>
 
@@ -79,7 +82,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   
     <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
     <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Research</a>
-	  <a href="publication.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Publication</a>
+   <a href="publication.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Publication</a>
      <a href="teaching.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Teaching</a>
     
   </div>
@@ -94,22 +97,43 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
   <div class="w3-container w3-panel">
 
-<div align="left" class="column right">
- <h1 id="profile" class="w3-text-teal">Contact</h1>
- <h4 id="contact" class="w3-text-teal"></h4>  
-  <p align="justify">Satish Kumar</p>
-  <p align="justify">Room No. 124, School of Computer Science</p>
-  <p>The University of Birmingham</p>
-  <p>Birmingham, UK., B15 2TT</p>
-  <p>E-mail: s.kumar.8@cs.bham.ac.uk</p>
-  <p>Mobile: +44 7741197411</p>
-</div>
+	    <div align="left" class="column right">
+ <h1 id="profile" class="w3-text-teal">Publications</h1>
+	    </div>
 
-		
-</div></div></div></div>
+	<div align="left" class="left"></div>
+                     	     
+  </div>
+    <div class="w3-twothird w3-container">		
+
+	    <p>  <span class="label label-success">C3 - SEAMS 2020 &nbsp </span>&nbsp<b>S.Kumar</b>,T.Chen, R. Bahsoon,  and R. Buyya. DATESSO: Self-Adapting Service Composition
+with Debt-Aware Two Level QoS Constraints Reasoning, In the Proceeding of IEEE/ACM 15th International Symposium
+on Software Engineering for Adaptive and Self-Managing Systems, Seoul, South Korea, 2020. [Accepted]</p>
+	    <p>  <span class="label label-success"> C2 - ICWS 2019 &nbsp </span>&nbsp<b>S.Kumar</b>, R. Bahsoon, T.Chen and R. Buyya. Identifying and Estimating Technical Debt for Service 
+	  Composition in SaaS Cloud, In the Proceeding of 24th IEEE International Conference on Web Services, Italy, 2019.</p>
+	    <p> <span class="label label-success"> C1 - ICPADS 2018 &nbsp</span>&nbsp<b>S.Kumar</b>, R. Bahsoon, T.Chen, K.Li and R. Buyya, "Multi-Tenant Cloud Service Composition using
+	  Evolutionary Optimization", In the Proceeding of 24th IEEE International Conference on Parallel and
+	  Distributed System, pp. 972-979, Singapore,  December, 2018. </p>
+  
+</div>
 	
-<div class="w3-container w3-teal display-flex">
-				 
+	</div></div>
+
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: teal;
+   color: white;
+   text-align: center;
+}
+</style>
+			       
+ 
+
+<div class="w3-container w3-teal display-flex">				 
 <div align="left" class="column left">
 			<a target="_blank" href="./images/UOB12.jpg">
 			<img id="mobile-img" src="./images/UOB12.jpg" width="240" 
@@ -122,16 +146,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
                         University of Birmingham<br> 
 			Birmingham, B15 2TT, UK<br>                    
                        </h4>
-						 
 	    	</div>	
 		    
 		    <div align="left" class="column left third-column">
 			<h4 class="w3-text-white">E-mail:<BR>
                         s.kumar.8@cs.bham.ac.uk<br>
                         satish.serg@gmail.com<br></h4>                   
-                    </div>	
-
+                    </div>
+	
 	</body></html>
-
-
-
