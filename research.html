@@ -60,6 +60,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 #myBtn:hover {
   background-color: #555;
+	
+.second-column {
+  width: 70% !important;
+}
+.third-column {
+  width: 0% !important;
+}
+.display-flex {
+  display: flex;	
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: teal;
+   color: white;
+   text-align: center;
+}
+
 }
 
 
@@ -97,14 +118,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   </div>
    
 
-  <div class="w3-twothird w3-container">		
+  <div class="w3-container w3-panel display-flex">
+	    <div align="left" class="column left">
+		   
 			<a target="_blank" href="./images/SD.png">
 			<img id="mobile-img" src="./images/SD.png" width="390" 
 			style="padding:2px;" height="200" alt="">
 			</a>
 	    </div>
-<div>
-	   <h3 id="profile" class="w3-text-teal">Service Composition in SaaS Cloud</h3>
+	  
+<div align="left" class="right second-column">
+    <h3 id="profile" class="w3-text-teal">Service Composition in SaaS Cloud</h3>
     <p align="justify">My research focuses on dynamic service composition in multi-tenant SaaS cloud. Particularly,
 	    I am intereted in analysing "Technical Debt" in service execution environment. This approach provides 
 	    an economic-driven strategic decision for optimising the service execution environment and maintaining 
@@ -114,17 +138,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 	
 	</div></div>
 
-<style>
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: teal;
-   color: white;
-   text-align: center;
-}
-</style>
+
 			       
  
 
