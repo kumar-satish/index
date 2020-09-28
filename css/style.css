@@ -1,0 +1,175 @@
+
+  * {box-sizing: border-box;}
+  
+  body {
+    margin: 0;
+    font-family: Trebuchet MS;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #003366;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: #003366;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: blue;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+
+
+
+
+    h2 {
+      color: #003366;
+    }
+
+    p {
+      color: black;
+      font-family: Trebuchet MS;
+      text-align: justify;
+      font-variant: small;
+      font-size: 1.2vw;
+    }
+
+
+  
+    .bone {
+      height: 500px;
+      border-style: solid;
+      border-color: #003366;
+      
+      
+    }
+
+    .cbg {
+      height: 150px;
+      background-color:white;
+    }
+ 
+    .hbg {
+      height: 150px;
+      background-color: #66CCFF;
+    }
+ 
+
+ 
+    .hbg1 {
+      height: 150px;
+      background-color: white;
+    }
+
+
+
+    .hbg2 {
+      height: 40px;
+      background-color: #66CCFF;
+    }
+ 
+
+    .pageh {
+      height: 500px;
+      background-color: white;
+    }
+
+
+    .ctnheading {
+      height: 40px;
+      background-color: #003366 ;
+      color: white;
+
+    }
+ 
+    .paperhead{
+
+      background-color: #696969 ;
+      color: white;
+    }
+
+  
+    p.justifyText {
+      font-family: Trebuchet MS;
+      text-align: justify;
+      font-variant: small;
+      font-size: 1.25vw;
+    }
+
+
+    hr.dashed {
+      border-top: 3px dashed #bbb;
+    }
+ 
+    /* Modify the background color */
+
+    .navbar-custom {
+      background-color: #006699;
+    }
+
+    /* Modify brand and text color */
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+      color: #FFFFFF;
+    }
+ 
+    .cname {
+        font-style: oblique;
+      }
